@@ -15,7 +15,7 @@ const Section4 = () => {
             How does it work?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            Zango Built with React, Redux toolkit, Typescript, and the latest
+            NC-blog Built with React, Redux toolkit, Typescript, and the latest
             Tailwindcss, Headless Ui modern. Perfect starting point for your
             next e-commerce site.
           </p>
