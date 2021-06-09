@@ -56,7 +56,8 @@ const Install = () => {
       <div>
         <p>
           4. Once the installation is completed successfully without errors you
-          can run the template in the <code>npm run dev</code> command.
+          can run the template in the <code>npm run start</code> or with yarn is{" "}
+          <code>yarn start</code> command.
         </p>
         <figure>
           <img src={install3} alt="install3" />
@@ -71,6 +72,11 @@ const Install = () => {
         <figure>
           <img src={install4} alt="install4" />
         </figure>
+      </div>
+
+      {/* ================== STEP 6 ================== */}
+      <div>
+        <p>6. All done. Thank you.</p>
       </div>
     </div>
   );
