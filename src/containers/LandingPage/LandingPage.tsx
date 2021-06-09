@@ -1,4 +1,5 @@
 import React from "react";
+import { Nav } from "./Nav";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
@@ -10,10 +11,11 @@ import { SectionLayouts } from "./SectionLayouts";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="relative">
+      <Nav />
       <Section1 />
       <SectionDemos />
-      <SectionLayouts />
+      {/* <SectionLayouts /> */}
       <Section2 />
       <Section3 />
       <Section4 />

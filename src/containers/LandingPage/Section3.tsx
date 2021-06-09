@@ -2,10 +2,10 @@ import React from "react";
 
 const Section3 = () => {
   return (
-    <section className="flex items-center justify-center py-16 bg-gray-100 min-w-screen">
-      <div className="max-w-6xl px-12 mx-auto bg-gray-100 md:px-16 xl:px-10">
+    <section className="flex items-center justify-center py-16 bg-gray-100">
+      <div className="w-full max-w-6xl px-4 mx-auto bg-gray-100 md:px-16 xl:px-10">
         <div className="flex flex-col items-center lg:flex-row">
-          <div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2">
+          <div className="flex flex-col items-start justify-center w-full h-full sm:pr-8 mb-10 lg:mb-0 lg:w-1/2">
             <p className="mb-2 text-base font-medium tracking-tight text-blue-700 uppercase">
               Our customers love our product
             </p>
@@ -48,7 +48,7 @@ const Section3 = () => {
                 </h3>
               </div>
               <img
-                className="flex-shrink-0 w-20 h-20 bg-gray-300 rounded-full xl:w-24 xl:h-24"
+                className="hidden sm:flex flex-shrink-0 w-10 h-10 sm:w-20 sm:h-20 bg-gray-300 rounded-full xl:w-24 xl:h-24"
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
                 alt=""
               />
@@ -77,13 +77,13 @@ const Section3 = () => {
                 <p className="mt-1 text-sm leading-5 text-gray-500 truncate"></p>
               </div>
               <img
-                className="flex-shrink-0 w-24 h-24 bg-gray-300 rounded-full"
+                className="hidden sm:flex flex-shrink-0 w-10 h-10 sm:w-20 sm:h-20 bg-gray-300 rounded-full"
                 src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;aauto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
                 alt=""
               />
             </blockquote>
             <blockquote className="flex items-center justify-between w-full col-span-1 p-6 mt-4 bg-white shadow rounded-3xl">
-              <div className="flex flex-col pr-10">
+              <div className="flex flex-col sm:pr-10">
                 <div className="relative pl-12">
                   <svg
                     className="absolute left-0 w-10 h-10 text-blue-700 fill-current"
@@ -107,7 +107,7 @@ const Section3 = () => {
                 <p className="mt-1 text-sm leading-5 text-gray-500 truncate"></p>
               </div>
               <img
-                className="flex-shrink-0 w-24 h-24 bg-gray-300 rounded-full"
+                className="hidden sm:flex flex-shrink-0 w-10 h-10 sm:w-20 sm:h-20 bg-gray-300 rounded-full"
                 src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rrb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;aauto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
                 alt=""
               />

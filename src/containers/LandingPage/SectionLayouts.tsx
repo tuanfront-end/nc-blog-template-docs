@@ -1,54 +1,30 @@
 import React from "react";
-import about from "images/landing/05_about.jpg";
-import shop from "images/landing/07_shop.jpg";
-import shopSingle from "images/landing/09_shop-single.jpg";
-import cart from "images/landing/10_cart.jpg";
-import checkout from "images/landing/11_checkout.jpg";
-import blog from "images/landing/12_blog.jpg";
-import blogMasonry from "images/landing/13_blog-masonary.jpg";
-import blogSingle from "images/landing/14_blog-single.jpg";
+import about from "images/landing/about.png";
+import search from "images/landing/search.png";
+import author from "images/landing/author.png";
+import archive from "images/landing/archive.png";
 
 export const SectionLayouts = () => {
   const data = [
     {
       img: about,
       text: "about page",
-      link: "https://zango.netlify.app/about-us",
+      link: "https://nc-blog.netlify.app/about",
     },
     {
-      img: shop,
+      img: search,
       text: "shop page",
-      link: "https://zango.netlify.app/shop",
+      link: "https://nc-blog.netlify.app/search",
     },
     {
-      img: shopSingle,
+      img: author,
       text: "shop single",
-      link: "https://zango.netlify.app/shop-single/1",
+      link: "https://nc-blog.netlify.app/author/the-demo-author-slug",
     },
     {
-      img: cart,
+      img: archive,
       text: "cart page",
-      link: "https://zango.netlify.app/cart",
-    },
-    {
-      img: checkout,
-      text: "checkout page",
-      link: "https://zango.netlify.app/checkout",
-    },
-    {
-      img: blog,
-      text: "blog page",
-      link: "https://zango.netlify.app/the-blog",
-    },
-    {
-      img: blogMasonry,
-      text: "blog masonry",
-      link: "https://zango.netlify.app/the-blog-masonry",
-    },
-    {
-      img: blogSingle,
-      text: "Blog single",
-      link: "https://zango.netlify.app/blog-single/1",
+      link: "https://nc-blog.netlify.app/archive/the-demo-archive-slug",
     },
   ];
 
@@ -56,10 +32,10 @@ export const SectionLayouts = () => {
     <section className="py-20 bg-white mx-auto">
       <div className="px-4 max-w-screen-2xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tight text-center">
-          Shop layout
+          Template layouts
         </h2>
         <p className="mt-2 text-lg text-center text-gray-600 mx-auto max-w-screen-sm">
-          Modern, Elegant & Beautiful home pages for your shop. Easy to
+          Modern, Elegant & Beautiful home pages for your magazine. Easy to
           customize and well organize code ready to use
         </p>
         <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-6 lg:grid-cols-9 xl:grid-cols-12 sm:px-8 xl:px-0">
