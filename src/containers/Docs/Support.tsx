@@ -12,7 +12,7 @@ const Support = () => {
       </p>
       <p>
         Email Us at :{" "}
-        <a href="mailto:ttnc.envato@gmail.com">ttnc.envato@gmail.com</a>
+        <a href="mailto:nghiaxchis@gmail.com">nghiaxchis@gmail.com</a>
       </p>
       <p>Best regards!</p>
     </div>
