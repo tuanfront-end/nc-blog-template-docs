@@ -85,14 +85,14 @@ export const SectionDemos = () => {
               key={index}
               className="flex flex-col group"
             >
-              <div className="relative shadow-lg z-10 flex-grow h-0 aspect-w-4 aspect-h-3 overflow-hidden">
+              <div className="relative shadow-lg z-10 flex-grow h-0 aspect-w-4 aspect-h-3 overflow-hidden border border-gray-700 rounded-2xl">
                 <img
-                  className="block absolute inset-0 object-cover rounded-2xl opacity-100 group-hover:opacity-0 transition-all"
+                  className="block absolute inset-0 object-cover rounded-2xl opacity-100 group-hover:opacity-0 transition-all duration-500"
                   src={item.img}
                   alt={item.text}
                 />
                 <img
-                  className="transform transition-all translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 absolute inset-0 object-cover rounded-2xl"
+                  className="transform transition-all group-hover:translate-x-0 opacity-0 group-hover:opacity-100 absolute inset-0 object-cover rounded-2xl duration-500"
                   src={item.imgDark}
                   alt={item.text}
                 />
