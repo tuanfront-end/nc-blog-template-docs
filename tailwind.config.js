@@ -1,8 +1,11 @@
 module.exports = {
   mode: "jit",
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  darkMode: false,
+  darkMode: "class",
   theme: {
+    container: {
+      padding: "1rem",
+    },
     extend: {},
   },
   variants: {

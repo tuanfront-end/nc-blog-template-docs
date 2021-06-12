@@ -8,6 +8,7 @@ import GettingStarted from "./GettingStarted";
 import Install from "./Install";
 import PluginsUsed from "./PluginsUsed";
 import SourcesAndCredits from "./SourcesAndCredits";
+import logoimg from "images/logo.png";
 import Support from "./Support";
 
 const Docs = () => {
@@ -74,7 +75,7 @@ const Docs = () => {
         <div className="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky lg:bg-transparent overflow-hidden lg:top-18 bg-white mr-24 lg:mr-0">
           <nav className="px-1 pt-6 overflow-y-auto font-medium text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky lg:h-(screen-18)">
             <Link to="/landing" className="flex items-start">
-              <Logo />
+              <Logo src={logoimg} />
             </Link>
             <ul className="mt-8">
               {SECTIONS.map((section, index) => {
