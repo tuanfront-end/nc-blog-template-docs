@@ -50,8 +50,8 @@ const PluginsUsed = () => {
           </tr>
         </thead>
         <tbody>
-          {plugins.map((item) => (
-            <tr>
+          {plugins.map((item, index) => (
+            <tr key={index}>
               <td>{item.name}</td>
               <td>{item.desc}</td>
               <td>

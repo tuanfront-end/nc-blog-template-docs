@@ -65,14 +65,17 @@ const Docs = () => {
   ] as const;
 
   const [sectionActive, setSectionActive] = useState<number>(0);
+  const [showSidebarSM, setShowSidebarSM] = useState<boolean>(false);
 
   const renderSidebar = () => {
     return (
       <div
         id="sidebar"
-        className="fixed z-40 inset-0 flex-none h-full bg-black bg-opacity-25 w-full lg:bg-gray-50 lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-1/4 xl:w-1/5 lg:block hidden xl:pl-8"
+        className={`fixed z-40 min-w-[300px] left-0 top-0 flex-none h-full bg-gray-50 lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-1/4 xl:w-1/5  ${
+          showSidebarSM ? "shadow-lg lg:shadow-none" : "hidden"
+        } lg:block xl:pl-8`}
       >
-        <div className="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky lg:bg-transparent overflow-hidden lg:top-18 bg-white mr-24 lg:mr-0">
+        <div className="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky overflow-hidden lg:top-18 ">
           <nav className="px-1 pt-6 overflow-y-auto font-medium text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky lg:h-(screen-18)">
             <Link to="/landing" className="flex items-start">
               <Logo src={logoimg} />
@@ -92,6 +95,7 @@ const Docs = () => {
                       onClick={(e) => {
                         e.preventDefault();
                         setSectionActive(index);
+                        setShowSidebarSM(false);
                       }}
                     >
                       {isActive && (
@@ -142,7 +146,43 @@ const Docs = () => {
   };
 
   return (
-    <div className="text-gray-500 antialiased bg-white">
+    <div className="text-gray-500 relative bg-white">
+      <div
+        className="lg:hidden w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center fixed right-4 bottom-4 text-white z-50"
+        onClick={() => setShowSidebarSM(!showSidebarSM)}
+      >
+        {showSidebarSM ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        )}
+      </div>
       <div className="lg:flex min-h-screen">
         {renderSidebar()}
         {renderContentWrap()}
