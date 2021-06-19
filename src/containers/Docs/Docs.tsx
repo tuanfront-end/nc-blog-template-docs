@@ -91,7 +91,7 @@ const Docs = () => {
                           ? "text-blue-700"
                           : "hover:text-gray-900 text-gray-500"
                       }`}
-                      href="#"
+                      href="/#"
                       onClick={(e) => {
                         e.preventDefault();
                         setSectionActive(index);

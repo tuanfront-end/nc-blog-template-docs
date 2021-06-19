@@ -20,6 +20,11 @@ const GettingStarted = () => {
         >
           Our Theme.
         </a>
+        <p>
+          This documentation is to help you with template’s customization. Basic
+          HTML CSS, React and Tailwindcss knowledge is required to customize
+          this template.
+        </p>
       </p>
     </div>
   );

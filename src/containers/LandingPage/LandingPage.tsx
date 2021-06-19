@@ -7,18 +7,17 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Section6 from "./Section6";
 import { SectionDemos } from "./SectionDemos";
-import { SectionLayouts } from "./SectionLayouts";
 
 const LandingPage = () => {
   return (
     <div className="relative">
       <div className="fixed inset-0 flex flex-col overflow-hidden justify-center items-center z-0">
-        <span className="bg-[#ef233c] w-52 h-52 ml-40 rounded-full mix-blend-multiply filter blur-3xl opacity-10 nc-animation-blob lg:w-96 lg:h-96"></span>
-        <span className="bg-[#04868b] w-52 h-52 rounded-full mix-blend-multiply filter blur-3xl opacity-10 nc-animation-blob lg:w-96 lg:h-96 nc-animation-delay-2000"></span>
+        <span className="bg-[#ef233c] w-52 h-52 ml-40 rounded-full mix-blend-multiply filter blur-3xl opacity-10 lg:w-96 lg:h-96"></span>
+        <span className="bg-[#04868b] w-52 h-52 rounded-full mix-blend-multiply filter blur-3xl opacity-10 lg:w-96 lg:h-96 "></span>
       </div>
       <div className="fixed inset-0 flex flex-col overflow-hidden z-0">
-        <span className="bg-gradient-to-t from-[#FF008A] w-52 h-52 rounded-full mix-blend-multiply filter blur-3xl opacity-20 nc-animation-blob lg:w-96 lg:h-96"></span>
-        <span className="bg-gradient-to-b from-[#7e7d7c] w-52 h-52 rounded-full mix-blend-multiply filter blur-3xl opacity-20 nc-animation-blob lg:w-96 lg:h-96 nc-animation-delay-2000"></span>
+        <span className="bg-gradient-to-t from-[#FF008A] w-52 h-52 rounded-full mix-blend-multiply filter blur-3xl opacity-20 lg:w-96 lg:h-96"></span>
+        <span className="bg-gradient-to-b from-[#7e7d7c] w-52 h-52 rounded-full mix-blend-multiply filter blur-3xl opacity-20 lg:w-96 lg:h-96 "></span>
       </div>
 
       <div className="relative z-10">

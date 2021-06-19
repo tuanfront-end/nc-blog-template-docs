@@ -1,5 +1,3 @@
-import SwitchDarkMode from "Components/SwitchDarkMode";
-import { ChartBarIcon } from "@heroicons/react/solid";
 import React from "react";
 import Logo from "Components/Logo";
 import Button from "Components/Button";

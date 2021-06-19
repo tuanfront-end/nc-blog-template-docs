@@ -5,7 +5,7 @@ const Section6 = () => {
     <section className=" body-font">
       <div className="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
         <a
-          href="#_"
+          href="/#"
           className="text-xl font-black leading-none select-none logo"
         >
           NC-blog<span className="text-indigo-600">.</span>
@@ -14,7 +14,7 @@ const Section6 = () => {
           © 2021 NC-blog - NghiaxChis Page Builder
         </p>
         <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="/#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Facebook</span>
             <svg
               className="w-6 h-6"
@@ -30,7 +30,7 @@ const Section6 = () => {
             </svg>
           </a>
 
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="/#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <svg
               className="w-6 h-6"
@@ -46,7 +46,7 @@ const Section6 = () => {
             </svg>
           </a>
 
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="/#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Twitter</span>
             <svg
               className="w-6 h-6"
@@ -58,7 +58,7 @@ const Section6 = () => {
             </svg>
           </a>
 
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="/#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">GitHub</span>
             <svg
               className="w-6 h-6"
@@ -74,7 +74,7 @@ const Section6 = () => {
             </svg>
           </a>
 
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="/#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Dribbble</span>
             <svg
               className="w-6 h-6"

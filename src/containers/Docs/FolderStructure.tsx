@@ -61,6 +61,49 @@ const FolderStructure = () => {
         ├── index.tsx
         └── reportWebVitals.ts`}
       </pre>
+      <h4>Src folder also includes these subfolders:</h4>
+      <ul>
+        <li>
+          <span className="text-red-400">/app</span> - hooks, actions and store
+          of redux toolkit
+        </li>
+        <li>
+          <span className="text-red-400"> /components</span> - React components
+        </li>
+        <li>
+          <span className="text-red-400"> /containers </span>- files for every
+          page, and component container (the components have connect with redux)
+        </li>
+        <li>
+          <span className="text-red-400"> /contains </span>- files js colors for
+          first letter of avatars have not image.
+        </li>
+        <li>
+          <span className="text-red-400"> /data</span> - JSON data sample files
+          for pages and components
+        </li>
+        <li>
+          <span className="text-red-400">/images </span> - logo default and some
+          placeholder image.
+        </li>
+        <li>
+          <span className="text-red-400">/fonts </span> - the folders fonts of
+          template
+        </li>
+        <li>
+          <span className="text-red-400">/styles </span> - where you can find
+          all scss files (you can change colors, fonts, ... on scss files in
+          this folder)
+        </li>
+        <li>
+          <span className="text-red-400">/utils </span> - Some common js file.
+        </li>
+        <li>
+          <span className="text-red-400">/templates </span> - We use
+          generate-react-cli component for quickly create components. You can
+          delete this folder if do not use generate-react-cli.
+        </li>
+      </ul>
     </div>
   );
 };
