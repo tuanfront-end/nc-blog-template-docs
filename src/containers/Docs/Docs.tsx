@@ -64,7 +64,6 @@ const Docs = () => {
     },
   ] as const;
 
-  const [sectionActive, setSectionActive] = useState<number>(0);
   const [showSidebarSM, setShowSidebarSM] = useState<boolean>(false);
 
   const renderSidebar = () => {
@@ -77,12 +76,12 @@ const Docs = () => {
       >
         <div className="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky overflow-hidden lg:top-18 ">
           <nav className="px-1 pt-6 overflow-y-auto font-medium text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky lg:h-(screen-18)">
-            <Link to="/landing" className="flex items-start">
+            <a href="/" className="flex items-start">
               <Logo src={logoimg} />
-            </Link>
+            </a>
             <ul className="mt-8">
               {SECTIONS.map((section, index) => {
-                const isActive = index === sectionActive;
+                const isActive = !index;
                 return (
                   <li key={section.id}>
                     <a
@@ -91,12 +90,7 @@ const Docs = () => {
                           ? "text-blue-700"
                           : "hover:text-gray-900 text-gray-500"
                       }`}
-                      href="/#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSectionActive(index);
-                        setShowSidebarSM(false);
-                      }}
+                      href={`#${section.id}`}
                     >
                       {isActive && (
                         <span className="rounded-md absolute inset-0 bg-gray-100" />
@@ -122,25 +116,30 @@ const Docs = () => {
   };
 
   const renderContentWrap = () => {
-    const data = SECTIONS[sectionActive];
+    // const data = SECTIONS[sectionActive];
     return (
       <div
         id="content-wrapper"
         className="min-w-0 w-full flex-auto lg:static lg:max-h-full lg:overflow-visible"
       >
-        <div className="w-full flex">
-          <div className="min-w-0 flex-auto px-4 sm:px-6 xl:px-8 pt-10 pb-24 lg:pb-16">
-            <div className="pb-10 border-b border-gray-200 mb-10">
-              <h1 className="inline-block text-4xl font-extrabold text-gray-900 tracking-tight">
-                {data.text}
-              </h1>
-              <p className="mt-1 text-lg text-gray-500">{data.desc}</p>
-            </div>
-            <div className="prose prose-sm !max-w-screen-md sm:prose lg:prose-lg dark:prose-dark">
-              {data.component}
+        {SECTIONS.map((data, i) => (
+          <div className="w-full flex">
+            <div className="min-w-0 flex-auto px-4 sm:px-6 xl:px-8 pt-10 pb-24 lg:pb-16">
+              <div className="pb-10 border-b border-gray-200 mb-10">
+                <h1
+                  id={data.id}
+                  className="inline-block text-4xl font-extrabold text-gray-900 tracking-tight"
+                >
+                  #{data.text}
+                </h1>
+                <p className="mt-1 text-lg text-gray-500">{data.desc}</p>
+              </div>
+              <div className="prose prose-sm !max-w-screen-md sm:prose lg:prose-lg dark:prose-dark">
+                {data.component}
+              </div>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     );
   };
