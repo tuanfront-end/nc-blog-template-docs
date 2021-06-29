@@ -7,6 +7,13 @@ import install4 from "images/docs/install4.png";
 const Install = () => {
   return (
     <div>
+      <h3>
+        <strong className="font-bold underline">*Note:</strong>
+      </h3>
+      <strong>
+        Please install according to our instructions below. Installation by
+        yourself may lead to unexpected errors.
+      </strong>
       {/* ================== STEP 1 ================== */}
       <div className="step">
         <p>

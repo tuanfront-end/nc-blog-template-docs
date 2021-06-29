@@ -25,6 +25,13 @@ const GettingStarted = () => {
           HTML CSS, React and Tailwindcss knowledge is required to customize
           this template.
         </p>
+        <h3>
+          <strong className="font-bold underline">*Note:</strong>
+        </h3>
+        <strong>
+          Please install according to our instructions below. Installation by
+          yourself may lead to unexpected errors.
+        </strong>
       </p>
     </div>
   );

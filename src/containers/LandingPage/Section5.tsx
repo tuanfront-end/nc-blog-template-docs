@@ -3,7 +3,7 @@ import React from "react";
 const Section5 = () => {
   return (
     <section className="py-20">
-      <div className="text-center max-w-7xl">
+      <div className="text-center max-w-7xl mx-auto">
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl xl:text-6xl">
           The New Standard for Blog/Magazine
         </h2>
