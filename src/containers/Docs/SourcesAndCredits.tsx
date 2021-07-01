@@ -12,6 +12,7 @@ const SourcesAndCredits = () => {
           <strong>Fonts Used are :</strong>
           <ul>
             <li>Inter</li>
+            <li>Poppins</li>
           </ul>
         </li>
 
