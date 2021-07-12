@@ -10,6 +10,7 @@ import PluginsUsed from "./PluginsUsed";
 import SourcesAndCredits from "./SourcesAndCredits";
 import logoimg from "images/logo.png";
 import Support from "./Support";
+import CustomColors from "./CustomColors";
 
 const Docs = () => {
   const SECTIONS = [
@@ -36,6 +37,12 @@ const Docs = () => {
       text: "Install",
       desc: "install",
       component: <Install />,
+    },
+    {
+      id: "changeColorFonts",
+      text: "Custom color, fonts",
+      desc: "Custon color, fonts",
+      component: <CustomColors />,
     },
     {
       id: "pluginsUsed",
