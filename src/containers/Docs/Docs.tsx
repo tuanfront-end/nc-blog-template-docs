@@ -77,7 +77,7 @@ const Docs = () => {
       >
         <div className="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky overflow-hidden lg:top-18 ">
           <nav className="px-1 pt-6 overflow-y-auto font-medium text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky lg:h-(screen-18)">
-            <Link to="/landing" className="flex items-start">
+            <Link to="/#" className="flex items-start">
               <Logo src={logoimg} />
             </Link>
             <ul className="mt-8">

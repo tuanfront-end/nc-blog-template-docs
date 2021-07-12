@@ -9,12 +9,12 @@ const ComponentStructure = () => {
         customize.
       </p>
 
-      <p className="group flex whitespace-pre-wrap" id="auto">
+      <div className="group flex whitespace-pre-wrap" id="auto">
         <span>
           Example <code>Checkbox</code> component:
         </span>
-      </p>
-      <p>
+      </div>
+      <div>
         <pre>
           {`<div className="flex items-start">
   <div className="flex items-center h-5">
@@ -38,7 +38,7 @@ const ComponentStructure = () => {
   )}
 </div> `}
         </pre>
-      </p>
+      </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const GettingStarted = () => {
       <h2>
         <blockquote>Thank you for purchasing Our Theme!</blockquote>
       </h2>
-      <p>
+      <div>
         In case of any questions please do not hesitate to contact us via our
         support at{" "}
         <a href="mailto:nghiaxchis@gmail.com">nghiaxchis@gmail.com</a>. Please
@@ -32,7 +32,7 @@ const GettingStarted = () => {
           Please install according to our instructions below. Installation by
           yourself may lead to unexpected errors.
         </strong>
-      </p>
+      </div>
     </div>
   );
 };
