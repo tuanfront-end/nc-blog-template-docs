@@ -64,6 +64,16 @@ const SourcesAndCredits = () => {
                 Unsplash.com
               </a>
             </li>
+            <li>
+              Freepik:{" "}
+              <a
+                href="https://www.freepik.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Freepik.com
+              </a>
+            </li>
           </ul>
         </li>
         {/*  */}

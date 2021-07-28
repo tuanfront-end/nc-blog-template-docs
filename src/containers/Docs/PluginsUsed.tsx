@@ -36,6 +36,11 @@ const plugins = [
     desc: "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS",
     redmoreLink: "https://headlessui.dev/",
   },
+  {
+    name: "React-player",
+    desc: "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia, Mixcloud, DailyMotion and Kaltura",
+    redmoreLink: "https://www.npmjs.com/package/react-player",
+  },
 ];
 
 const PluginsUsed = () => {
