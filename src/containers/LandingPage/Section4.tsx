@@ -4,7 +4,7 @@ import Heading from "./Heading";
 const data = [
   {
     q: " How does it work?",
-    a: `  NC-blog Built with React, Redux toolkit, Typescript, and the latest
+    a: `  ncmaz Built with React, Redux toolkit, Typescript, and the latest
     Tailwindcss, Headless Ui modern. Perfect starting point for your
     next e-commerce site.`,
   },
@@ -22,7 +22,7 @@ const data = [
   },
   {
     q: "  Free updates and support?",
-    a: `  Yes, we do! Free updates and support is lifetime. Cherry.`,
+    a: `  Yes, we do! Free updates and support is lifetime. 🎉.`,
   },
 ];
 
@@ -39,9 +39,9 @@ const Section4 = () => {
       {data.map((item, index) => (
         <div
           key={index}
-          className="w-full px-6 py-6 mx-auto mt-10 bg-gray-800 bg-opacity-60 backdrop-filter backdrop-blur-md border border-gray-700 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-3xl"
+          className="w-full px-6 py-6 mx-auto mt-10 bg-gray-800 bg-opacity-60 border border-gray-700 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-3xl"
         >
-          <h3 className="text-lg font-bold text-blue-700 sm:text-xl md:text-2xl">
+          <h3 className="text-lg font-bold text-blue-600 sm:text-xl md:text-2xl">
             {item.q}
           </h3>
           <p className="mt-2 text-base text-gray-300 sm:text-lg md:text-normal">

@@ -8,10 +8,10 @@ const Section6 = () => {
           href="/#"
           className="text-xl font-black leading-none select-none logo"
         >
-          NC-blog<span className="text-indigo-600">.</span>
+          ncmaz<span className="text-indigo-600">.</span>
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-700 sm:mt-0">
-          © 2021 NC-blog - NghiaxChis Page Builder
+          © 2021 ncmaz - NghiaxChis Page Builder
         </p>
         <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
           <a href="/#" className="text-gray-400 hover:text-gray-500">

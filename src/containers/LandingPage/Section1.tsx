@@ -7,7 +7,7 @@ const Section1 = () => {
       <div className="container max-w-lg py-10 md:pt-28 mx-auto text-left md:max-w-none md:text-center">
         <h1 className="text-5xl font-extrabold leading-10 tracking-tight text-left md:text-center sm:leading-none md:text-6xl lg:text-7xl">
           <span className="inline md:block">Modern & Creative</span>{" "}
-          <span className="mt-2 text-blue-700 md:inline-block">
+          <span className="mt-2 text-blue-600 md:inline-block">
             Blog, Magazine
           </span>
         </h1>
@@ -18,7 +18,7 @@ const Section1 = () => {
         <div className="flex flex-col items-center mt-12 text-center">
           <span className="relative inline-flex w-full md:w-auto">
             <a
-              href="https://themeforest.net/"
+              href="https://themeforest.net/item/ncmaz-blog-magazine-react-template/33283311"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-blue-700 border border-transparent md:w-auto hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 rounded-full"
@@ -26,7 +26,7 @@ const Section1 = () => {
               Purchase Now
             </a>
           </span>
-          <a href="#demos" className="mt-3 text-sm text-blue-700">
+          <a href="#demos" className="mt-3 text-sm text-blue-600">
             Learn more
           </a>
         </div>

@@ -7,9 +7,8 @@ import LandingPage from "containers/LandingPage/LandingPage";
 import Docs from "containers/Docs/Docs";
 
 export const pages: Page[] = [
-  { path: "/landing", component: LandingPage },
-  { path: "/*", component: Docs },
   { path: "/docs", component: Docs },
+  { path: "/*", component: LandingPage },
   { path: "/page404", component: Page404 },
 ];
 

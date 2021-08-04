@@ -40,7 +40,7 @@ const Section3 = () => {
               list of case studies and customer testimonials.
             </p>
             <a
-              href="#_"
+              href="https://themeforest.net/item/ncmaz-blog-magazine-react-template/33283311"
               className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-700 border border-transparent shadow hover:bg-blue-600 focus:outline-none focus:border-blue-800 focus:shadow-blue-NaN md:py-4 md:text-lg md:px-10 rounded-full"
             >
               Purchase now
@@ -50,12 +50,12 @@ const Section3 = () => {
             {data.map((item, index) => (
               <blockquote
                 key={index}
-                className="flex items-center justify-between w-full col-span-1 p-6 mt-4 bg-gray-800 bg-opacity-60 backdrop-filter backdrop-blur-md rounded-3xl"
+                className="flex items-center justify-between w-full col-span-1 p-6 mt-4 bg-gray-800 bg-opacity-60  rounded-3xl"
               >
                 <div className="flex flex-col sm:pr-10 overflow-hidden">
                   <div className="relative pl-12">
                     <svg
-                      className="absolute left-0 w-10 h-10 text-blue-700 fill-current"
+                      className="absolute left-0 w-10 h-10 text-blue-600 fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 100 125"
                     >

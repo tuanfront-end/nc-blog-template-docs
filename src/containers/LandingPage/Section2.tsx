@@ -7,6 +7,9 @@ import {
   CodeIcon,
   SupportIcon,
   DatabaseIcon,
+  MusicNoteIcon,
+  VideoCameraIcon,
+  PhotographIcon,
 } from "@heroicons/react/solid";
 
 const data = [
@@ -37,8 +40,23 @@ const data = [
   },
   {
     title: "Data & Logic",
-    desc: " Full JSON data sample files for pages and components. Almost actions are fully logic processed (add to cart, update cart,  wishlist ...)",
+    desc: " Full JSON data sample files for pages and components. Almost actions are fully logic processed (bookmark, like, actions...)",
     icon: DatabaseIcon,
+  },
+  {
+    title: "Music & Podcast",
+    desc: "You can listen to music or podcasts live while reading other articles or exploring the entire web",
+    icon: MusicNoteIcon,
+  },
+  {
+    title: "Video card & preview",
+    desc: "You can preview the video card by just hovering the mouse over the card",
+    icon: VideoCameraIcon,
+  },
+  {
+    title: "Post Gallery ",
+    desc: "With post type gallery extremely modern and beautiful",
+    icon: PhotographIcon,
   },
 ];
 
@@ -54,7 +72,7 @@ const Section2 = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col items-center col-span-4 px-8 py-12 space-y-4 bg-gray-800 bg-opacity-30 backdrop-filter backdrop-blur-md rounded-3xl border border-gray-700"
+            className="flex flex-col items-center col-span-4 px-8 py-12 space-y-4 bg-gray-800 bg-opacity-30 rounded-3xl border border-gray-700"
           >
             <div className="p-3 text-gray-100 bg-blue-700 rounded-full">
               <item.icon className="w-6 h-6" />
