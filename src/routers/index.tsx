@@ -14,7 +14,7 @@ export const pages: Page[] = [
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ncmaz-landing">
       <ScrollToTop />
 
       <Switch>
