@@ -17,7 +17,7 @@ const Install = () => {
       {/* ================== STEP 1 ================== */}
       <div className="step">
         <p>
-          1. Extract the <strong>nc-maz.zip</strong> file.
+          1. Extract the <strong>chisfis.zip</strong> file.
         </p>
         <div>
           <p>

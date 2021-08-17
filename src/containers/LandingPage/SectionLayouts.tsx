@@ -9,22 +9,22 @@ export const SectionLayouts = () => {
     {
       img: about,
       text: "about page",
-      link: "https://ncmaz.netlify.app/about",
+      link: "https://chisfis.netlify.app/about",
     },
     {
       img: search,
       text: "shop page",
-      link: "https://ncmaz.netlify.app/search",
+      link: "https://chisfis.netlify.app/search",
     },
     {
       img: author,
       text: "shop single",
-      link: "https://ncmaz.netlify.app/author/the-demo-author-slug",
+      link: "https://chisfis.netlify.app/author/the-demo-author-slug",
     },
     {
       img: archive,
       text: "cart page",
-      link: "https://ncmaz.netlify.app/archive/the-demo-archive-slug",
+      link: "https://chisfis.netlify.app/archive/the-demo-archive-slug",
     },
   ];
 

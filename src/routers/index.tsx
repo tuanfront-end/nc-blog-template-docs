@@ -7,14 +7,14 @@ import LandingPage from "containers/LandingPage/LandingPage";
 import Docs from "containers/Docs/Docs";
 
 export const pages: Page[] = [
-  { path: "/landing", component: LandingPage },
+  // { path: "/landing", component: LandingPage },
   { path: "/*", component: Docs },
   { path: "/page404", component: Page404 },
 ];
 
 const Routes = () => {
   return (
-    <BrowserRouter basename="/ncmaz-landing">
+    <BrowserRouter basename="/chisfis-landing">
       <ScrollToTop />
 
       <Switch>

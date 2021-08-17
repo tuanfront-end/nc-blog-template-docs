@@ -17,9 +17,9 @@ const plugins = [
     redmoreLink: "https://reactrouter.com/",
   },
   {
-    name: "Redux Toolkit",
-    desc: "The Redux Toolkit package is intended to be the standard way to write Redux logic. It was originally created to help address three common concerns about Redux.",
-    redmoreLink: "https://redux-toolkit.js.org/",
+    name: "react-dates ",
+    desc: "An easily internationalizable, accessible, mobile-friendly datepicker library for the web.",
+    redmoreLink: "https://github.com/airbnb/react-dates",
   },
   {
     name: "Node-sass",
@@ -37,9 +37,14 @@ const plugins = [
     redmoreLink: "https://headlessui.dev/",
   },
   {
-    name: "React-player",
-    desc: "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia, Mixcloud, DailyMotion and Kaltura",
-    redmoreLink: "https://www.npmjs.com/package/react-player",
+    name: "Glidejs",
+    desc: "Glide.js is a dependency-free JavaScript ES6 slider and carousel. It’s lightweight, flexible and fast. Designed to slide. No less, no more",
+    redmoreLink: "https://glidejs.com/docs/",
+  },
+  {
+    name: "Google Map React",
+    desc: "A component written over a small set of the Google Maps API. It allows you to render any React component on the Google Map",
+    redmoreLink: "https://www.npmjs.com/package/google-map-react",
   },
 ];
 

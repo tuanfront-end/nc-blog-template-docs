@@ -11,12 +11,12 @@ const FolderStructure = () => {
         demo content & offline documentation folder.
       </p>
       <pre className="!leading-tight">
-        ncmaz
+        chisfis
         {`
  
  ├── documentation
  │
- ├── ncmaz
+ ├── chisfis
     │
     ├── package.json
     ├── tsconfig.json

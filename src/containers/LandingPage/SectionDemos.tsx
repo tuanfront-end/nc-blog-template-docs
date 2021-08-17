@@ -10,22 +10,22 @@ export const SectionDemos = () => {
     {
       img: home1,
       text: "home style 1",
-      link: "https://chisnghiax.com/ncmaz/",
+      link: "https://chisnghiax.com/chisfis/",
     },
     {
       img: home2,
       text: "home style 2",
-      link: "https://chisnghiax.com/ncmaz/",
+      link: "https://chisnghiax.com/chisfis/",
     },
     {
       img: home3,
       text: "home style 3",
-      link: "https://chisnghiax.com/ncmaz/",
+      link: "https://chisnghiax.com/chisfis/",
     },
     {
       img: home4,
       text: "home style 4",
-      link: "https://chisnghiax.com/ncmaz/",
+      link: "https://chisnghiax.com/chisfis/",
     },
   ];
   return (

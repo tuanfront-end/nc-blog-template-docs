@@ -4,7 +4,7 @@ import Heading from "./Heading";
 const data = [
   {
     q: " How does it work?",
-    a: `  ncmaz Built with React, Redux toolkit, Typescript, and the latest
+    a: `  chisfis Built with React, Redux toolkit, Typescript, and the latest
     Tailwindcss, Headless Ui modern. Perfect starting point for your
     next blog, magazine, podcast, music... site.`,
   },
