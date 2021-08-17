@@ -12,7 +12,7 @@ const Section1 = () => {
           </span>
         </h1>
         <div className="mx-auto mt-5 text-gray-400 md:mt-12 md:max-w-lg md:text-center lg:text-lg">
-          Modern & Creative, Ncblog is an React + Typescript theme, a perfect
+          Modern & Creative, Ncmaz is an React + Typescript theme, a perfect
           starting point for your next blog, magazine site.
         </div>
         <div className="flex flex-col items-center mt-12 text-center">

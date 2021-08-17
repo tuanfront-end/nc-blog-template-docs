@@ -40,7 +40,7 @@ const data = [
   },
   {
     title: "Data & Logic",
-    desc: " Full JSON data sample files for pages and components. Almost actions are fully logic processed (bookmark, like, actions...)",
+    desc: "Almost actions are fully logic processed (bookmark, like, actions...)",
     icon: DatabaseIcon,
   },
   {

@@ -6,13 +6,7 @@ const data = [
     q: " How does it work?",
     a: `  ncmaz Built with React, Redux toolkit, Typescript, and the latest
     Tailwindcss, Headless Ui modern. Perfect starting point for your
-    next e-commerce site.`,
-  },
-  {
-    q: "  How do I make changes dyamic data?",
-    a: `  Full JSON data sample files for pages and components, easily change
-    on data folder. Almost actions are fully logic processed (add to
-    cart, update cart, wishlist, shop single router ...)`,
+    next blog, magazine, podcast, music... site.`,
   },
   {
     q: "  How do I make changes and configure my site?",
