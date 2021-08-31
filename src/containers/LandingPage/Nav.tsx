@@ -26,7 +26,7 @@ export const Nav = () => {
           >
             Live Demo
           </a>
-          <Button href="https://themeforest.net/item/chisfis-blog-magazine-react-template/33283311">
+          <Button href="https://themeforest.net/item/chisfis-online-booking-react-template/33515927">
             <span className="sm:hidden" title="Documentation">
               Purchase now
             </span>

@@ -5,7 +5,7 @@ const Section5 = () => {
     <section className="py-20">
       <div className="text-center max-w-7xl mx-auto">
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl xl:text-6xl">
-          The New Standard for Blog/Magazine
+          The New Standard for Booking online
         </h2>
         <p className="max-w-md mx-auto mt-3 text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           Purchase this Template now and make your website
@@ -15,7 +15,7 @@ const Section5 = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://themeforest.net/item/chisfis-blog-magazine-react-template/33283311"
+            href="https://themeforest.net/item/chisfis-online-booking-react-template/33515927"
             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-700 border border-transparent shadow hover:bg-blue-800 rounded-full"
           >
             Purchase now

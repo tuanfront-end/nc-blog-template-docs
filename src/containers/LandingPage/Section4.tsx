@@ -6,7 +6,7 @@ const data = [
     q: " How does it work?",
     a: `  chisfis Built with React, Redux toolkit, Typescript, and the latest
     Tailwindcss, Headless Ui modern. Perfect starting point for your
-    next blog, magazine, podcast, music... site.`,
+    next booking, car rental, travel... site.`,
   },
   {
     q: "  How do I make changes and configure my site?",

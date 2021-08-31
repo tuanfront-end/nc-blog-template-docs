@@ -1,41 +1,23 @@
 import React from "react";
 import Heading from "./Heading";
-import home1 from "images/landing/home1.png";
-import home2 from "images/landing/home2.png";
-import home3 from "images/landing/home3.png";
-import home4 from "images/landing/home4.png";
+import home1 from "images/landing/home.png";
 
 export const SectionDemos = () => {
   const data = [
     {
       img: home1,
-      text: "home style 1",
-      link: "https://chisnghiax.com/chisfis/",
-    },
-    {
-      img: home2,
-      text: "home style 2",
-      link: "https://chisnghiax.com/chisfis/",
-    },
-    {
-      img: home3,
-      text: "home style 3",
-      link: "https://chisnghiax.com/chisfis/",
-    },
-    {
-      img: home4,
-      text: "home style 4",
+      text: "Home page",
       link: "https://chisnghiax.com/chisfis/",
     },
   ];
   return (
     <section id="demos" className="py-20">
-      <Heading className="text-center"> 4+ Home pages</Heading>
+      <Heading className="text-center"> 30+ inner pages</Heading>
       <p className="mt-2 text-lg text-center text-gray-400 mx-auto max-w-screen-sm">
-        Modern, Elegant & Beautiful home pages for your magazine. We plan to
-        show new demos regularly
+        Modern, Elegant & Beautiful for your travel site. We plan to show new
+        demos regularly
       </p>
-      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-10">
+      <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         {data.map((item, index) => {
           return (
             <a
@@ -45,9 +27,9 @@ export const SectionDemos = () => {
               key={index}
               className="flex flex-col group"
             >
-              <div className="relative shadow-lg z-10 flex-grow h-0 aspect-w-3 aspect-h-3 overflow-hidden border border-gray-700 rounded-2xl transform transition-transform duration-500 hover:shadow-2xl hover:scale-105">
+              <div className="relative shadow-lg z-10 flex-grow  border border-gray-700 rounded-2xl transform transition-transform duration-300 hover:shadow-2xl hover:scale-[1.02]">
                 <img
-                  className="block absolute inset-0 object-cover rounded-2xl opacity-100"
+                  className="rounded-2xl opacity-100"
                   src={item.img}
                   alt={item.text}
                 />
@@ -58,11 +40,23 @@ export const SectionDemos = () => {
             </a>
           );
         })}
-        {/* <div className="relative shadow-lg z-10 flex-grow h-0 aspect-w-4 aspect-h-3 bg-gray-800 bg-opacity-60  rounded-2xl border border-gray-700">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h3 className="uppercase tracking-widest text-2xl">Comming soon</h3>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://chisnghiax.com/chisfis"
+          className="relative  z-10 flex flex-col flex-grow "
+        >
+          <div className="relative shadow-lg flex-grow bg-gray-800 bg-opacity-60  rounded-2xl border border-gray-700">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h3 className="uppercase tracking-widest text-2xl">
+                30+ inner pages
+              </h3>
+            </div>
           </div>
-        </div> */}
+          <div className="px-3 py-5 text-center">
+            <span className="font-medium capitalize">30+ inner pages</span>
+          </div>
+        </a>
       </div>
     </section>
   );

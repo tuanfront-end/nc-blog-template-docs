@@ -40,22 +40,22 @@ const data = [
   },
   {
     title: "Data & Logic",
-    desc: "Almost actions are fully logic processed (bookmark, like, actions...)",
+    desc: "Almost actions are fully logic processed (map, date range, popup...)",
     icon: DatabaseIcon,
   },
   {
-    title: "Music & Podcast",
-    desc: "You can listen to music or podcasts live while reading other articles or exploring the entire web",
+    title: "Stays listing",
+    desc: " ",
     icon: MusicNoteIcon,
   },
   {
-    title: "Video card & preview",
-    desc: "You can preview the video card by just hovering the mouse over the card",
+    title: "Car rental listing",
+    desc: "",
     icon: VideoCameraIcon,
   },
   {
-    title: "Post Gallery ",
-    desc: "With post type gallery extremely modern and beautiful",
+    title: "Experiences listing",
+    desc: "",
     icon: PhotographIcon,
   },
 ];

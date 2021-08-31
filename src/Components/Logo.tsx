@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import logoImg from "images/logo.svg";
+import logoImg from "images/logo.png";
 
 export interface LogoProps {
   src?: string;

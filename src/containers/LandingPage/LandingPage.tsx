@@ -7,6 +7,7 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Section6 from "./Section6";
 import { SectionDemos } from "./SectionDemos";
+import { SectionLayouts } from "./SectionLayouts";
 
 const LandingPage = () => {
   return (

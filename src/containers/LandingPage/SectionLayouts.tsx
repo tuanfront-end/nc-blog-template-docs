@@ -1,8 +1,8 @@
 import React from "react";
-import about from "images/landing/about.png";
-import search from "images/landing/search.png";
-import author from "images/landing/author.png";
-import archive from "images/landing/archive.png";
+import about from "images/landing/home.png";
+import search from "images/landing/home.png";
+import author from "images/landing/home.png";
+import archive from "images/landing/home.png";
 
 export const SectionLayouts = () => {
   const data = [
@@ -29,7 +29,7 @@ export const SectionLayouts = () => {
   ];
 
   return (
-    <section className="py-20 bg-white mx-auto">
+    <section className="py-20 mx-auto">
       <div className="px-4 max-w-screen-2xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tight text-center">
           Template layouts
@@ -46,16 +46,14 @@ export const SectionLayouts = () => {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="col-span-3 flex flex-col rounded-2xl overflow-hidden h-[500px] group shadow-lg"
+                className="col-span-3 flex flex-col"
               >
-                <div className="relative z-10 bg-gray-100 flex-grow overflow-hidden">
-                  <img
-                    className="absolute top-0 left-0 group-hover:-translate-y-full group-hover:top-full transform transition-all duration-1000 ease-linear z-10"
-                    src={item.img}
-                    alt={item.text}
-                  />
-                </div>
-                <div className="right-0 bg-white px-3 py-5 text-center">
+                <img
+                  className="w-full rounded-2xl"
+                  src={item.img}
+                  alt={item.text}
+                />
+                <div className="right-0 px-3 py-5 text-center">
                   <span className="font-medium capitalize">{item.text}</span>
                 </div>
               </a>
