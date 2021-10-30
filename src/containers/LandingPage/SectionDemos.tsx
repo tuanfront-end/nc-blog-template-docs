@@ -1,13 +1,19 @@
 import React from "react";
 import Heading from "./Heading";
 import home1 from "images/landing/home.png";
+import home2 from "images/landing/home2.png";
 
 export const SectionDemos = () => {
   const data = [
     {
       img: home1,
-      text: "Home page",
+      text: "Booking online",
       link: "https://chisnghiax.com/chisfis/",
+    },
+    {
+      img: home2,
+      text: "Real Estate",
+      link: "https://chisnghiax.com/chisfis/home-2",
     },
   ];
   return (
@@ -17,7 +23,7 @@ export const SectionDemos = () => {
         Modern, Elegant & Beautiful for your travel site. We plan to show new
         demos regularly
       </p>
-      <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className=" mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-10 mt-16">
         {data.map((item, index) => {
           return (
             <a
@@ -29,7 +35,7 @@ export const SectionDemos = () => {
             >
               <div className="relative shadow-lg z-10 flex-grow  border border-gray-700 rounded-2xl transform transition-transform duration-300 hover:shadow-2xl hover:scale-[1.02]">
                 <img
-                  className="rounded-2xl opacity-100"
+                  className="rounded-2xl opacity-100 w-full"
                   src={item.img}
                   alt={item.text}
                 />
@@ -44,10 +50,10 @@ export const SectionDemos = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://chisnghiax.com/chisfis"
-          className="relative  z-10 flex flex-col flex-grow "
+          className="relative w-full z-10 flex flex-col flex-grow "
         >
-          <div className="relative shadow-lg flex-grow bg-gray-800 bg-opacity-60  rounded-2xl border border-gray-700">
-            <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-full relative shadow-lg flex-grow bg-gray-800 bg-opacity-60  rounded-2xl border border-gray-700">
+            <div className="absolute inset-0 p-4 flex items-center justify-center">
               <h3 className="uppercase tracking-widest text-2xl">
                 30+ inner pages
               </h3>

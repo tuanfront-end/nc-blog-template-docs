@@ -8,13 +8,14 @@ const Section1 = () => {
         <h1 className="text-5xl font-extrabold leading-10 tracking-tight text-left md:text-center sm:leading-none md:text-6xl lg:text-7xl">
           <span className="inline md:block">Modern & Creative</span>{" "}
           <span className="mt-2 text-blue-600 md:inline-block">
-            Booking online
+            Booking online, Real Estate
           </span>
         </h1>
         <div className="mx-auto mt-5 text-gray-400 md:mt-12 md:max-w-lg md:text-center lg:text-lg">
           Modern & Creative, chisfis is an React + Typescript theme, a perfect
-          starting point for your next Booking online site. <br />
-          Eg: Stay, Car, Experiences listings, travel, tour, hotel ...
+          starting point for your next Booking online and Real Estate site.
+          (Stay, Car, Experiences listings, Real Estate, property, travel, tour,
+          hotel...)
         </div>
         <div className="flex flex-col items-center mt-12 text-center">
           <span className="relative inline-flex w-full md:w-auto">
