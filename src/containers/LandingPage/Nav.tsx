@@ -12,25 +12,20 @@ export const Nav = () => {
           <Logo />
         </Link>
         <div className="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex flex-wrap items-center">
-          {/* <Link to="##" className="hover:text-gray-400 ">
-            <abbr className="sm:hidden" title="Documentation">
-              Docs
-            </abbr>
-            <span className="hidden sm:inline">Documentation</span>
-          </Link> */}
+         
           <a
             href="https://chisnghiax.com/ncmaz/"
-            className="mx-8  hover:text-gray-400"
+            className="mx-5 sm:mx-8 hover:text-gray-400"
             target="_blank"
             rel="noopener noreferrer"
           >
             Live Demo
           </a>
-          <Button href="https://themeforest.net/item/ncmaz-blog-magazine-react-template/33283311">
+          <Button href="https://themeforest.net/item/ncmaz-blog-magazine-wordpress-theme/34122841">
             <span className="sm:hidden" title="Documentation">
               Purchase now
             </span>
-            <span className="hidden sm:inline"> Purchase template</span>
+            <span className="hidden sm:inline">Purchase theme</span>
           </Button>
         </div>
       </div>

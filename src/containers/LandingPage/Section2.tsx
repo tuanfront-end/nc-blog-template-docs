@@ -14,8 +14,8 @@ import {
 
 const data = [
   {
-    title: "React Template",
-    desc: "Built with React, Redux toolkit, Typescript, and the latest Tailwindcss, HeadlessUI react",
+    title: "Fast & Powerful",
+    desc: "Powerful of a combination of WordPress, WpGraphql, React & Tailwindcss",
     icon: ChipIcon,
   },
   {
@@ -28,21 +28,8 @@ const data = [
     desc: "Darkmode modern. Helps you quickly turn the theme mode to dark at night time.",
     icon: MoonIcon,
   },
-  {
-    title: "Customizing the theme",
-    desc: "Completely customize the template and whole Taiwindcss, quickly modifying its config variables.",
-    icon: CodeIcon,
-  },
-  {
-    title: "Free updates and support",
-    desc: "I work closely with my customers to provide a high standard of  support and quick bug fixes.",
-    icon: SupportIcon,
-  },
-  {
-    title: "Data & Logic",
-    desc: "Almost actions are fully logic processed (bookmark, like, actions...)",
-    icon: DatabaseIcon,
-  },
+
+ 
   {
     title: "Music & Podcast",
     desc: "You can listen to music or podcasts live while reading other articles or exploring the entire web",
@@ -57,6 +44,21 @@ const data = [
     title: "Post Gallery ",
     desc: "With post type gallery extremely modern and beautiful",
     icon: PhotographIcon,
+  },
+  {
+    title: "Perfect Gutenberg",
+    desc: "No Elementor, Every section in the Home page is built with our Gutenberg blocks",
+    icon: DatabaseIcon,
+  },
+  {
+    title: "Free updates and support",
+    desc: "I work closely with my customers to provide a high standard of  support and quick bug fixes.",
+    icon: SupportIcon,
+  },
+  {
+    title: "Customizing the theme",
+    desc: "Completely customize the template and whole Taiwindcss, quickly modifying its config variables.",
+    icon: CodeIcon,
   },
 ];
 

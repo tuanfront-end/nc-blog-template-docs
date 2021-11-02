@@ -15,7 +15,7 @@ const Section5 = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://themeforest.net/item/ncmaz-blog-magazine-react-template/33283311"
+            href="https://themeforest.net/item/ncmaz-blog-magazine-wordpress-theme/34122841"
             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-700 border border-transparent shadow hover:bg-blue-800 rounded-full"
           >
             Purchase now
@@ -23,7 +23,7 @@ const Section5 = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://chisnghiax.com/ncmaz/"
+            href="https://ncmaz.chisnghiax.com/"
             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-blue-800 bg-blue-200 border border-transparent hover:bg-blue-300 rounded-full"
           >
             Live demo

@@ -40,7 +40,7 @@ const Section3 = () => {
               list of case studies and customer testimonials.
             </p>
             <a
-              href="https://themeforest.net/item/ncmaz-blog-magazine-react-template/33283311"
+              href="https://themeforest.net/item/ncmaz-blog-magazine-wordpress-theme/34122841"
               className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-700 border border-transparent shadow hover:bg-blue-600 focus:outline-none focus:border-blue-800 focus:shadow-blue-NaN md:py-4 md:text-lg md:px-10 rounded-full"
             >
               Purchase now
