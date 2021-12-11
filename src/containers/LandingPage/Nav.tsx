@@ -12,9 +12,8 @@ export const Nav = () => {
           <Logo />
         </Link>
         <div className="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex flex-wrap items-center">
-         
           <a
-            href="https://chisnghiax.com/ncmaz/"
+            href="https://ncmaz.chisnghiax.com/"
             className="mx-5 sm:mx-8 hover:text-gray-400"
             target="_blank"
             rel="noopener noreferrer"

@@ -1,6 +1,6 @@
 {
-  "name": "ncmaz-docs",
-  "version": "0.1.0",
+  "name": "ncmaz-wp-landing-page",
+  "version": "0.1.3",
   "private": true,
   "homepage": ".",
   "dependencies": {

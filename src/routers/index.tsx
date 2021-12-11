@@ -12,7 +12,7 @@ export const pages: Page[] = [
 
 const Routes = () => {
   return (
-    <BrowserRouter basename="/ncmaz-landing">
+    <BrowserRouter basename="/ncmaz-wp-landing">
       <ScrollToTop />
 
       <Switch>
